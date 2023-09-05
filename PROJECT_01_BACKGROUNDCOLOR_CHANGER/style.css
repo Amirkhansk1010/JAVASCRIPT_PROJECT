@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+span {
+    display: block;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.navbar {
+    border: 2px solid black;
+    height: 75px;
+    width: 100vw;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px;
+    background-color: grey;
+}
+
+.home {
+    width: 150px;
+    text-align: center;
+}
